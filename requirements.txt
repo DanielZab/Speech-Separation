@@ -1,0 +1,4 @@
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchmetrics==0.9.3
+tqdm==4.66.4
