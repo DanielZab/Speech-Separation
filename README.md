@@ -4,6 +4,12 @@ This project implements a speech separation system based on **Conv-TasNet** usin
 
 ---
 
+## References
+
+Yu, Dong, et al. "Permutation invariant training of deep models for speaker-independent multi-talker speech separation." 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.
+
+Luo, Yi, and Nima Mesgarani. "Conv-tasnet: Surpassing ideal time–frequency magnitude masking for speech separation." IEEE/ACM transactions on audio, speech, and language processing 27.8 (2019): 1256-1266.
+
 ## Overview
 
 The training pipeline:
