@@ -29,7 +29,7 @@ The training pipeline:
 
 ```
 .
-├── main.py                # Training script
+├── main.py               # Training script
 ├── dataloader.py         # Custom dataset loader
 ├── util.py               # Utility functions (PIT, collate)
 ├── LibriMix/             # Dataset directory (not included)
@@ -110,4 +110,6 @@ checkpoints/<run_id>/
 
 * Uses **Permutation Invariant Training (PIT)** to match predicted sources with ground truth
 * Includes CUDA memory management to avoid excessive allocation
+* Use `test.py` to evaluate the metrics on test data
+* To convert the outputs of the model into audio files, use `inference.py` 
 
